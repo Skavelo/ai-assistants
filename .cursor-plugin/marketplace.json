@@ -1,0 +1,16 @@
+{
+  "name": "skavelo",
+  "owner": {
+    "name": "Skavelo"
+  },
+  "metadata": {
+    "description": "Skavelo's plugin for Cursor: the MCP server and skills for setting up Skavelo agents."
+  },
+  "plugins": [
+    {
+      "name": "skavelo",
+      "source": ".",
+      "description": "Skavelo's MCP server and skills for setting up your agents from Cursor."
+    }
+  ]
+}

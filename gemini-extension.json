@@ -1,0 +1,10 @@
+{
+  "name": "skavelo",
+  "version": "1.0.0",
+  "description": "Set up Skavelo, the AI guide for web products: Skavelo's MCP server and skills for Needs attention, walkthroughs, playbooks, API lookups and reviewing an agent.",
+  "mcpServers": {
+    "skavelo": {
+      "httpUrl": "https://api.skavelo.com/mcp"
+    }
+  }
+}

@@ -15,6 +15,13 @@
     "walkthroughs",
     "customer support"
   ],
-  "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://skavelo.com/privacy"
+  "icon": "assets/icon.png",
+  "privacyPolicyUrl": "https://skavelo.com/privacy",
+  "repository": "https://github.com/Skavelo/ai-assistants",
+  "mcpServers": {
+    "skavelo": {
+      "type": "http",
+      "url": "https://api.skavelo.com/mcp"
+    }
+  }
 }

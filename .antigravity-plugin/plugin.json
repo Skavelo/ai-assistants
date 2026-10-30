@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "skavelo",
+  "displayName": "Skavelo",
+  "description": "Set up Skavelo, the AI guide for web products: write walkthroughs, turn API specs into lookups, draft playbooks and fix what users couldn't get answered.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Go through Needs attention for my Skavelo agent and suggest a note for each one.",
+    "Write a Skavelo walkthrough for sending an invoice.",
+    "Review my Skavelo agent and tell me what to improve."
+  ],
+  "author": {
+    "name": "Skavelo",
+    "url": "https://skavelo.com"
+  },
+  "homepage": "https://skavelo.com/features/ai-assistants",
+  "repository": "https://github.com/Skavelo/ai-assistants",
+  "license": "MIT",
+  "keywords": [
+    "skavelo",
+    "mcp",
+    "in-app guidance",
+    "walkthroughs",
+    "customer support"
+  ]
+}

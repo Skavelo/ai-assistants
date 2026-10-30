@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "skavelo": {
-      "type": "http",
       "url": "https://api.skavelo.com/mcp"
     }
   }
