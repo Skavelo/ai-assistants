@@ -66,6 +66,37 @@ In the Antigravity app or IDE, add Skavelo as an MCP server instead: put this in
 
 Antigravity shows a code after you approve the connection in Skavelo; paste it back into Antigravity to finish signing in.
 
+## Codex
+
+```
+codex mcp add skavelo --url https://api.skavelo.com/mcp
+codex mcp login skavelo
+```
+
+The Codex CLI, IDE extension and the ChatGPT desktop app share this setup.
+
+## Windsurf (Devin Desktop)
+
+In Cascade's MCP settings, choose **Open MCP config file** and add:
+
+```json
+{
+  "mcpServers": {
+    "skavelo": { "serverUrl": "https://api.skavelo.com/mcp" }
+  }
+}
+```
+
+Save, and Windsurf starts the sign-in.
+
+## GitHub Copilot CLI
+
+```
+copilot plugin install Skavelo/ai-assistants
+```
+
+Then sign in when Copilot CLI asks, or run `/mcp auth skavelo`.
+
 ## Other assistants
 
 Add `https://api.skavelo.com/mcp` as a remote MCP server; the [setup guide](https://help.skavelo.com/docs/developers/mcp-server) has the steps for Claude, ChatGPT, Cursor and VS Code. Assistants that support skills in the `SKILL.md` format can use each folder in `skills/` as it is; each folder's name matches its skill's name, as the format requires.
