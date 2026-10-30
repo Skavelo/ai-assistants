@@ -1,0 +1,20 @@
+{
+  "name": "skavelo",
+  "version": "1.0.0",
+  "description": "Set up Skavelo, the AI guide for web products, from Claude Code: connects Skavelo's MCP server and adds skills for Needs attention, walkthroughs, playbooks, API lookups and reviewing an agent.",
+  "author": {
+    "name": "Skavelo",
+    "url": "https://skavelo.com"
+  },
+  "homepage": "https://skavelo.com/features/ai-assistants",
+  "license": "MIT",
+  "keywords": [
+    "skavelo",
+    "mcp",
+    "in-app guidance",
+    "walkthroughs",
+    "customer support"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://skavelo.com/privacy"
+}

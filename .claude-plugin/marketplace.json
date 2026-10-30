@@ -1,0 +1,15 @@
+{
+  "name": "skavelo",
+  "description": "Skavelo's plugin for Claude Code: the MCP server and skills for setting up Skavelo agents.",
+  "owner": {
+    "name": "Skavelo",
+    "url": "https://skavelo.com"
+  },
+  "plugins": [
+    {
+      "name": "skavelo",
+      "source": "./",
+      "description": "Skavelo's MCP server and skills for setting up your agents from Claude Code."
+    }
+  ]
+}
