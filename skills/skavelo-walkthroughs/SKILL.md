@@ -14,7 +14,7 @@ A walkthrough is a named task with steps. Skavelo shows each step next to the re
 3. `list_product_map_pages` to find the screens the task goes through, and the exact names of their buttons and fields.
 4. Draft the walkthrough:
    - **Name:** the task as a user would say it, like "Send an invoice".
-   - **Steps:** one action each, naming the control exactly as it appears, like "Click New invoice". Add `pageUrlPattern` (like `/invoices/new`) when the step is on a different page.
+   - **Steps:** one action each, with the control's name exactly as it appears on screen in double asterisks, like `Click **New invoice**.` or `Enter the amount in the **Amount** field.` Skavelo finds and highlights the control by that name. Give every step its `pageUrlPattern` (like `/invoices/new`, with `:id` for record IDs), taken from `list_product_map_pages`.
    - Optional `title` and `details` per step, for context the user needs, like what a field is for.
    - Up to 30 steps. Most good walkthroughs have 3 to 8.
 5. Show the draft to the person, then `create_walkthrough` or `update_walkthrough`.
